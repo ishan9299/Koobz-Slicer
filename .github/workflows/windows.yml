@@ -48,6 +48,5 @@ jobs:
       conan_args: ${{ inputs.conan_args }}
       enterprise: ${{ inputs.enterprise }}
       staging: ${{ inputs.staging }}
-      architecture: ${{ inputs.architecture }}
       operating_system: ${{ inputs.operating_system }}
     secrets: inherit
